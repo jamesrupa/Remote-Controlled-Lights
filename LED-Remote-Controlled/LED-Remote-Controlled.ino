@@ -21,10 +21,13 @@ int led7 = 4;
 int led8 = 3;
 int led9 = 2;
 
+int itsONled[] = {0,0,0,0,0,0,0,0,0};
 
 void setup() {
+  
   irrecv.enableIRIn();
   irrecv.blink13(true);
+  
   pinMode(led1, OUTPUT);
   pinMode(led2, OUTPUT);
   pinMode(led3, OUTPUT);
@@ -34,8 +37,25 @@ void setup() {
   pinMode(led7, OUTPUT);
   pinMode(led8, OUTPUT);
   pinMode(led9, OUTPUT);
+  
 }
 
 void loop() {
   
+  if (irrecv.decode(&results)) {
+
+    // LED 1
+    switch(results.value) {
+      case 0xFF30CF:
+      if (itsONled[1] == 1) {
+        digitalWrite(led1, LOW);
+        itsONled[1] = 0;
+      } else {
+        digitalWrite(led1, HIGH);
+        itsONled[1] = 1;
+      }
+        break;
+      } 
+        irrecv.resume(); 
+    }
 }
