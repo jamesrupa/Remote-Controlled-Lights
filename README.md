@@ -1,2 +1,46 @@
-# Remote-Controlled-Lights
-IR Remote Controlled LEDs
+# Remote Controlled Lights
+**Arduino Remote Controlled LEDs**\
+*Created By James Rupa*
+
+## Project Description
+
+This is my first Arduino project that was made entirely from scratch and only did a bit of research to see how it works. Basically, this program and schematic shown below are used to control a series of LEDs from a remote controlled. This was a little side project I made to present on STEM night for the AP Computer Science A class.
+
+## How To Use The Project
+
+1. Download the Arduino IDE
+2. Download the file using terminal or direct download
+3. Install the library used to create the project link below\
+LINK TO LIBRARY
+4. Open the file in the Arduino IDE 
+5. Select the Arduino board you are using
+6. Upload the files to the arduino
+
+## Future Plans
+
+* Implement the IR Remote onto a different project that is a bit more advanced
+
+## Acknowledgments
+
+The site listed below played a crucial part into making this project\
+SITE
+
+## Contact Info
+
+**James Rupa**\
+Aspiring Computer Science Major\
+Current High School Student
+
+**Languages I Know**
+* HTML
+* CSS
+* Python
+* Java
+* Arduino's language
+
+**Future Plans**
+* Create an Arduino Project from scratch
+* Code an entire game
+
+*Twitter - @jamesrupaa*\
+*Instagram - @jamesrupaa*
