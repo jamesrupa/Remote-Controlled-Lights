@@ -11,15 +11,15 @@ IRrecv irrecv(rcv);
 decode_results results;
 
 // LED VAR.
-int led1 = 2;
-int led2 = 3;
-int led3 = 4;
-int led4 = 5;
+int led1 = 10;
+int led2 = 9;
+int led3 = 8;
+int led4 = 7;
 int led5 = 6;
-int led6 = 7;
-int led7 = 8;
-int led8 = 9;
-int led9 = 10;
+int led6 = 5;
+int led7 = 4;
+int led8 = 3;
+int led9 = 2;
 
 
 void setup() {
