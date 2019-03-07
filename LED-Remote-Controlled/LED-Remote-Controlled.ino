@@ -56,6 +56,9 @@ int led7 = 4;
 int led8 = 3;
 int led9 = 2;
 int itsONled[] = {0,0,0,0,0,0,0,0,0};
+bool onoff;
+// if true == on
+// if false == off
 
 IRrecv irrecv(rcv);
 decode_results results;
@@ -283,6 +286,35 @@ void loop() {
       digitalWrite(led1, LOW);
       delay(50);
     }
+
+    // PWR
+    switch(results.value) {
+      case codePWR:
+      if (onoff == true) {
+          digitalWrite(led9, LOW);                      
+          digitalWrite(led8, LOW);                      
+          digitalWrite(led7, LOW);
+          digitalWrite(led6, LOW);                      
+          digitalWrite(led5, LOW);                      
+          digitalWrite(led4, LOW);                      
+          digitalWrite(led3, LOW);
+          digitalWrite(led2, LOW);
+          digitalWrite(led1, LOW);
+          onoff = false;
+      } else {
+        digitalWrite(led1, HIGH);                     
+        digitalWrite(led2, HIGH);                            
+        digitalWrite(led3, HIGH);                      
+        digitalWrite(led4, HIGH);
+        digitalWrite(led5, HIGH);
+        digitalWrite(led6, HIGH);                      
+        digitalWrite(led7, HIGH);                     
+        digitalWrite(led8, HIGH);                     
+        digitalWrite(led9, HIGH);
+        onoff = true;
+      }
+        break;
+      }  
       
     irrecv.resume(); 
     }
