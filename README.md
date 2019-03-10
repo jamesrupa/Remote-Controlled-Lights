@@ -10,8 +10,8 @@ This is my first Arduino project that was made entirely from scratch and only di
 
 1. Download the Arduino IDE
 2. Download the file using terminal or direct download
-3. Install the library used to create the project link below\
-LINK TO LIBRARY
+3. Install the library used to create the project link below:\
+https://www.arduinolibraries.info/libraries/i-rremote
 4. Open the file in the Arduino IDE 
 5. Select the Arduino board you are using
 6. Upload the files to the arduino
@@ -23,8 +23,7 @@ LINK TO LIBRARY
 ## Acknowledgments
 
 The site listed below played a crucial part into making this project\
-SITE
-
+http://www.circuitbasics.com/arduino-ir-remote-receiver-tutorial/
 ## Contact Info
 
 **James Rupa**\
