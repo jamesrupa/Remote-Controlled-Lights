@@ -16,30 +16,23 @@ https://www.arduinolibraries.info/libraries/i-rremote
 5. Select the Arduino board you are using
 6. Upload the files to the arduino
 
-## Future Plans
-
-* Implement the IR Remote onto a different project that is a bit more advanced
-
 ## Acknowledgments
 
 The site listed below played a crucial part into making this project\
 http://www.circuitbasics.com/arduino-ir-remote-receiver-tutorial/
+
 ## Contact Info
 
 **James Rupa**\
-Aspiring Computer Science Major\
-Current High School Student
+CS Major at Brooklyn College
 
 **Languages I Know**
-* HTML
-* CSS
+* HTML5
+* CSS3
+* Some JavaScript
 * Python
 * Java
-* Arduino's language
-
-**Future Plans**
-* Create an Arduino Project from scratch
-* Code an entire game
+* Arduino
 
 *Twitter - @jamesrupaa*\
 *Instagram - @jamesrupaa*
